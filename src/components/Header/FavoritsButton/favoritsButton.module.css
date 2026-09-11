@@ -1,0 +1,23 @@
+.favorite_button {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-button, #471970);
+  width: 3.438rem;
+  height: 2.813rem;
+  cursor: pointer;
+}
+
+/* Favorite button icon */
+.favorite_button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 1.816rem;
+  height: 1.54rem;
+
+  background-color: var(--color-favorite-button, #b20dba);
+
+  -webkit-mask: url("../../../assets/img/Heart.svg") no-repeat center / contain;
+  mask: url("../../../assets/img/Heart.svg") no-repeat center / contain;
+}

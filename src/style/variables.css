@@ -1,0 +1,37 @@
+:root {
+  --fonts-logo: "Codystar";
+  --main-fonts: "Roboto";
+
+  --font-size-logo: 2.5rem;
+  --font-size-profile-bbutton: 1.563rem;
+  --font-size-filter: 1.375rem;
+  --font-size-dropDownList: 1.25rem;
+  --font-size-name-skins: 0.938rem;
+  --font-size-wear-status-text: 0.75rem;
+  --font-size-price: 0.875rem;
+  --font-size-price-change: 0.688rem;
+  --font-size-plaseholder-search-line: 1.875rem;
+
+  --color-mainPage-grasdient: linear-gradient(0deg, #5905b2, #021177);
+
+  --logo-color: #a928ff;
+
+  --color-button: #471970;
+  --color-skin-cards: #471970;
+
+  --text-color: #ca99ff;
+  --text-wear-status-color: #855db1;
+
+  --price-change-up: #3ea126;
+  --price-change-down: #b70f12;
+
+  --color-favorite-button: #b20dba;
+  --color-favorite-buttonOn: #b20dba;
+  --color-favorite-buttonOff: #ca99ff;
+
+  --default-color-avatar: #b20dba;
+
+  --color-search-line: #471970;
+  --color-plaseholder-search-line: #855DB1;
+  --color-focus-input: #855DB1;
+}
