@@ -1,0 +1,12 @@
+.profile_button {
+    position: relative;
+    width: 8.125rem;
+    height: 2.813rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-button, #471970);
+    color: var(--color-rofile-button-text, #CA99FF);
+    font-family: var(--main-fonts, "Roboto", sans-serif);
+    font-size: var(--font-size-profile-bbutton, 1.563rem);
+    
+}

@@ -1,3 +1,8 @@
+.search_input_container {
+  display: flex;
+  gap: 20px;
+}
+
 .input {
   width: 48.125rem;
   height: 2.813rem;
@@ -16,6 +21,37 @@
   color: var(--color-plaseholder-search-line, #855db1);
 }
 .input:focus {
+  outline: none;
+  border-color: var(--color-focus-input, #855db1);
+  box-shadow: 0 0 5px #855db1;
+}
+
+.search_button {
+  position: relative;
+  width: 3.438rem;
+  height: 2.813rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-search-line, #471970);
+  font-family: var(--main-fonts, "Roboto", sans-serif);
+  font-size: var(--font-size-plaseholder-search-line, 1.875rem);
+  color: var(--text-color, #ca99ff);
+  cursor: pointer;
+}
+
+.search_button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 1.813rem;
+  height: 1.813rem;
+  background-color: var(--color-favorite-button, #b20dba);
+  mask: url("../../../assets/img/Loop.svg") no-repeat center / contain;
+  -webkit-mask: url("../../../assets/img/Loop.svg") no-repeat center / contain;
+}
+
+.search_button:focus {
   outline: none;
   border-color: var(--color-focus-input, #855db1);
   box-shadow: 0 0 5px #855db1;
