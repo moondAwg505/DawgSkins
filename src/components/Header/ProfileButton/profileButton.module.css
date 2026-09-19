@@ -1,5 +1,6 @@
 .profile_button {
-    position: relative;
+    display: flex;
+    align-items: center;
     width: 8.125rem;
     height: 2.813rem;
     border: none;
@@ -8,5 +9,13 @@
     color: var(--color-rofile-button-text, #CA99FF);
     font-family: var(--main-fonts, "Roboto", sans-serif);
     font-size: var(--font-size-profile-bbutton, 1.563rem);
-    
+    cursor: pointer;
 }
+
+.profile_icon_avatar {
+    margin: 7px 7px 7px 7px ;
+}
+
+/* .profile_text_button {
+
+} */

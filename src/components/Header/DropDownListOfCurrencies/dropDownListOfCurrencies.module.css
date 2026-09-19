@@ -1,0 +1,30 @@
+.trigger_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.688rem;
+    height: 2.813rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-drop-down-lis, #471970);
+    cursor: pointer;
+}
+
+.drop_down_list {
+    list-style-type: none;
+}
+
+.currencyIcon {
+    width: 1.875rem;
+    height: 1.813rem;
+    color: var(--color-icon_currencies, #0F9E59);
+}
+
+.button {
+    width: 4.688rem;
+    height: 2.813rem;
+}
+
+.chevronOpen {
+    rotate: 180deg;
+}
