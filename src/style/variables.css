@@ -11,6 +11,7 @@
   --font-size-price: 0.875rem;
   --font-size-price-change: 0.688rem;
   --font-size-plaseholder-search-line: 1.875rem;
+  --font-size-text-drop-down-list: 0.938rem;
 
   --color-mainPage-grasdient: linear-gradient(0deg, #5905b2, #021177);
 
@@ -40,4 +41,6 @@
   --color-drop-down-list: #471970;
   --color-icon_currencies: #0F9E59;
   --color-awrrow-list: #B20DBA;
+
+  --color-text-drop-down-list: #CA99FF;
 }
