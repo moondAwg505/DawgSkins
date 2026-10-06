@@ -4,11 +4,12 @@ import { ChevronsDown } from "lucide-react";
 import { ArrowDownWideNarrow } from "lucide-react";
 import { ArrowUpNarrowWide } from "lucide-react";
 
-//
+// Типы
 type Price = "default" | "low" | "high";
 
 // Массив фильтра цены
 const priceOptions: { value: Price; label: string }[] = [
+  { value: "default", label: "Price" },
   { value: "low", label: "Low price" },
   { value: "high", label: "High price" },
 ];
@@ -33,7 +34,15 @@ export const DropDownListPriceFilter: React.FC<PticeProps> = ({ onChange }) => {
   const renderPriceChangeicon = () => {
     if (priceFilter === "low") return <ArrowDownWideNarrow />;
     if (priceFilter === "high") return <ArrowUpNarrowWide />;
-    return;
+    if (priceFilter === "default") return <ChevronsDown />;
+    return <ChevronsDown size={18} />;
+  };
+
+  // Рендер статуса в зависимости от выбора фильтра
+  const rendrePriceLabel = () => {
+    if (priceFilter === "low") return "Low price";
+    if (priceFilter === "high") return "High price";
+    return "Price";
   };
 
   return (
@@ -45,7 +54,7 @@ export const DropDownListPriceFilter: React.FC<PticeProps> = ({ onChange }) => {
         aria-expanded={isOpen}
       >
         {renderPriceChangeicon()}
-        <span>{}</span>
+        <span className={style.filter_text}>{rendrePriceLabel()}</span>
       </button>
       {isOpen && (
         <ul className={style.drop_down_list}>

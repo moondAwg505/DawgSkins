@@ -1,0 +1,47 @@
+.wrapper {
+  position: relative;
+}
+
+.triger_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-filter-button, #471970);
+  color: var(--color-filter-text-button, #ca99ff);
+  cursor: pointer;
+}
+
+.filter_text {
+  font-family: var(--main-fonts, "Roboto", sans-serif);
+  font-size: var(--font-size-dropDownList, 1.25rem);
+  color: var(--color-filter-text-button, #ca99ff);
+}
+
+.drop_down_list {
+  position: absolute;
+  left: -40px;
+  right: 0;
+  list-style-type: none;
+}
+
+.button {
+  width: 135px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--color-filter-button, #471970);
+  color: var(--color-filter-text-button, #ca99ff);
+  font-family: var(--main-fonts, "Roboto", sans-serif);
+  font-size: var(--font-size-dropDownList, 1.25rem);
+  cursor: pointer;
+}
+
+.button:first-child {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,51 @@
+.wrapper_skins_card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-skin-card, #471970);
+  font-family: var(--main-fonts, "Roboto", sans-serif);
+}
+
+.wrapper_text_skin_card {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 38px;
+}
+
+.wrapper_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name_item {
+  color: var(--color-text-skin-card, #ca99ff);
+  font-size: var(--font-size-name-skins, 0.938rem);
+}
+
+.wear_name_item {
+  color: var(--color-text-wear, #855db1);
+  font-size: var(--font-size-wear-status-text, 0.75rem);
+}
+
+.price {
+  color: var(--color-text-skin-card, #ca99ff);
+  font-size: var(--font-size-price, 0.875rem);
+}
+
+.price_up {
+  display: flex;
+  align-items: center;
+  color: var(--price-change-up-color, #3ea126);
+  font-size: var(--font-size-price-change, 0.75rem);
+}
+
+.price_down {
+  display: flex;
+  align-items: center;
+  color: var(--price-change-down-color, #b70f12);
+  font-size: var(--font-size-price-change, 0.688rem);
+}

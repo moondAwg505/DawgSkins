@@ -9,7 +9,7 @@
   --font-size-name-skins: 0.938rem;
   --font-size-wear-status-text: 0.75rem;
   --font-size-price: 0.875rem;
-  --font-size-price-change: 0.688rem;
+  --font-size-price-change: 0.75rem;
   --font-size-plaseholder-search-line: 1.875rem;
   --font-size-text-drop-down-list: 0.938rem;
 
@@ -46,4 +46,10 @@
 
   --color-filter-button: #471970;
   --color-filter-text-button: #CA99FF;
+
+  --color-skin-card: #471970;
+  --color-text-skin-card: #CA99FF;
+  --color-text-wear: #855DB1;
+  --price-change-up-color: #3EA126;
+  --price-change-down-color: #B70F12;
 }

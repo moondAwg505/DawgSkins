@@ -1,0 +1,1 @@
+export { SkinsCard } from "./SkinsCard";

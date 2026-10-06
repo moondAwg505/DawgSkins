@@ -4,5 +4,5 @@ export interface ISkinsData {
   img: string;
   wear: string;
   price: number;
-  prieceChange: number;
+  priceChange: number;
 }
