@@ -52,4 +52,6 @@
   --color-text-wear: #855DB1;
   --price-change-up-color: #3EA126;
   --price-change-down-color: #B70F12;
+  --color-favorite-button: #CA99FF;
+  --color-favorite-button-isActive: #B20DBA; 
 }

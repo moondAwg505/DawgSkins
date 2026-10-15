@@ -1,1 +1,1 @@
-export { SkinsCard } from "./SkinsCard";
+export { SkinCard } from "./SkinCard";

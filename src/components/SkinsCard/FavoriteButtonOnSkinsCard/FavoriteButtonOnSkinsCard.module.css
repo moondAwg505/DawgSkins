@@ -1,0 +1,18 @@
+.btn {
+  display: flex;
+  justify-content: end;
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  color: var(--color-favorite-button, #ca99ff);
+  cursor: pointer;
+}
+
+.active_button {
+  color: var(--color-favorite-button-isActive, #b20dba);
+}
+
+.heart {
+  width: 17px;
+  height: 16px;
+}

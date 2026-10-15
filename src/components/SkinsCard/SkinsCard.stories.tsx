@@ -1,6 +1,6 @@
 // SkinCard.stories.tsx
 import type { Meta, StoryObj } from "@storybook/react";
-import { SkinsCard } from "./SkinsCard";
+import { SkinsCard } from "./SkinCard";
 import demoImg from "../../assets/img/StatTrak™ AK-47 _ The Oligarch (Battle-Scarred).webp";
 
 const meta: Meta<typeof SkinsCard> = {
