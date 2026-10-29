@@ -31,6 +31,9 @@
   --price-change-up: #3ea126;
   --price-change-down: #b70f12;
 
+  /* Favorite button */
+  --color-icon: #E5E5E5;
+  --bg-color: #2E1246;
   --color-favorite-button: #b20dba;
   --color-favorite-buttonOn: #b20dba;
   --color-favorite-buttonOff: #ca99ff;

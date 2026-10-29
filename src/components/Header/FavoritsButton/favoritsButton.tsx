@@ -8,7 +8,7 @@ export const FavoriteButton = () => {
       className={style.favorite_button}
       aria-label="Favorite button"
     >
-      <Heart className={style.favorite_icon} color="#b20dba"/>
+      <Heart className={style.favorite_icon} />
     </button>
   );
 };
