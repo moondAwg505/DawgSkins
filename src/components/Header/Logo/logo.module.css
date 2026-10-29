@@ -1,8 +1,18 @@
-.logo {
-    display: inline-block;
-    font-family: var(--fonts-logo,"Codystar", sans-serif);
-    font-size: 2.5rem;
-    color: var(--logo-color, #a928ff);
-    text-shadow: 0px 4px 3px #9900FF;
-    cursor: default;
+.wrapper_logo {
+  display: flex;
+  font-family: var(--main-fonts, "Doppio One", sans-serif);
+  font-size: var(--font-size-logo, 2rem);
+  cursor: default;
+}
+
+.logo_withe_part_one {
+  color: var(--logo-color-part-one, #e5e5e5);
+  padding: 0;
+  margin: 0;
+}
+
+.logo_part_two {
+  color: var(--logo-fonts-part-two, #a928ff);
+  padding: 0;
+  margin: 0;
 }
