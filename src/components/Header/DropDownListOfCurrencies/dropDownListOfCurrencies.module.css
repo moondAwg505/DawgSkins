@@ -7,11 +7,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 4.688rem;
-  height: 2.813rem;
+  width: 3.75rem;
+  height: 2.188rem;
   border: none;
-  border-radius: 10px;
-  background-color: var(--color-drop-down-lis, #471970);
+  border-radius: 5px;
+  background-color: var(--color-drop-down-lis, #2e1246);
   cursor: pointer;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .currencyIcon {
-  width: 1.875rem;
-  height: 1.813rem;
+  width: 1.25rem;
+  height: 1.188rem;
   color: var(--color-icon_currencies, #0f9e59);
 }
 
@@ -37,17 +37,20 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  font-family: var(--main-fonts, "Roboto", sans-serif);
+  font-family: var(--main-fonts, "Doppio One", sans-serif);
   font-size: var(--font-size-text-drop-down-list, 0.938rem);
-  color: var(--color-text-drop-down-list, #ca99ff);
+  color: var(--color-text-drop-down-list, #e5e5e5);
   border: none;
-  border-radius: 10px;
-  background-color: var(--color-drop-down-lis, #471970);
-  width: 4.688rem;
-  height: 2.813rem;
+  border-radius: 5px;
+  background-color: var(--color-drop-down-lis, #2e1246);
+  width: 3.75rem;
+  height: 2.188rem;
   cursor: pointer;
 }
 
+.chevron {
+  color: var(--color-awrrow-list, #e5e5e5);
+}
 .chevronOpen {
   rotate: 180deg;
 }

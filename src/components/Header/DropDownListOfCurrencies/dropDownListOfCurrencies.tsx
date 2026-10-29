@@ -40,7 +40,6 @@ export const ListOfCurrencies = () => {
       >
         <img src={current.icon} alt="" className={style.currencyIcon} />
         <ChevronsDown
-          color='#B20DBA'
           className={`${style.chevron} ${isOpen ? style.chevronOpen : ""}`}
         />
       </button>
