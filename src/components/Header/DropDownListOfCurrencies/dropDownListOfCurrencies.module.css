@@ -24,6 +24,7 @@
   left: auto;
   list-style-type: none;
   gap: 5px;
+  z-index: 2;
 }
 
 .currencyIcon {

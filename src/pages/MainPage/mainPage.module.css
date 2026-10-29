@@ -1,0 +1,6 @@
+.wrapper_MainPage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #120121;
+}

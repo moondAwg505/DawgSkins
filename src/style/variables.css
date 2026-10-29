@@ -1,6 +1,5 @@
 :root {
-  --fonts-logo: "Codystar";
-  --main-fonts: "Roboto";
+  --main-fonts: "Doppio One";
 
   --font-size-logo: 2.5rem;
   --font-size-profile-bbutton: 1.563rem;
@@ -10,18 +9,19 @@
   --font-size-wear-status-text: 0.75rem;
   --font-size-price: 0.875rem;
   --font-size-price-change: 0.75rem;
-  --font-size-plaseholder-search-line: 1.875rem;
+  --font-size-plaseholder-search-line: 1rem;
   --font-size-text-drop-down-list: 0.938rem;
 
-  --color-mainPage-grasdient: linear-gradient(0deg, #5905b2, #021177);
+  --color-mainPage-: #120121;
 
-  --logo-color: #a928ff;
+  --logo-color-1: #E5E5E5;
+  --logo-fonts-2: #A928FF;
 
   --color-button: #471970;
-  --color-skin-cards: #471970;
+  --color-skin-cards: #2E1246;
 
-  --text-color: #ca99ff;
-  --text-wear-status-color: #855db1;
+  --text-color: #E5E5E5;
+  /* --text-wear-status-color: #8C4FC0; */
 
   --price-change-up: #3ea126;
   --price-change-down: #b70f12;
@@ -30,28 +30,30 @@
   --color-favorite-buttonOn: #b20dba;
   --color-favorite-buttonOff: #ca99ff;
 
-  --default-color-avatar: #b20dba;
+  --default-color-avatar: #E5E5E5;
 
-  --color-search-line: #471970;
-  --color-plaseholder-search-line: #855DB1;
-  --color-focus-input: #855DB1;
+  --color-search-line: #2E1246;
+  --color-plaseholder-search-line: #5F4376;
+  --color-icon-input: #5F4376;
+  /* --color-focus-input: #855DB1; */
 
-  --color-rofile-button-text: #CA99FF;
+  --color-profile-button-text: #E5E5E5;
 
   --color-drop-down-list: #471970;
   --color-icon_currencies: #0F9E59;
-  --color-awrrow-list: #B20DBA;
+  --color-awrrow-list: #E5E5E5;
 
-  --color-text-drop-down-list: #CA99FF;
+  --color-text-drop-down-list: #E5E5E5;
 
-  --color-filter-button: #471970;
-  --color-filter-text-button: #CA99FF;
+  --color-filter-button: #160A20;
+  --border-color-filter-button: #835BA5;
+  --color-filter-text-button: #8C4FC0;
 
-  --color-skin-card: #471970;
-  --color-text-skin-card: #CA99FF;
-  --color-text-wear: #855DB1;
+  --color-skin-card: #2E1246;
+  --color-text-skin-card: #E5E5E5;
+  --color-text-wear: #8C4FC0;
   --price-change-up-color: #3EA126;
   --price-change-down-color: #B70F12;
-  --color-favorite-button: #CA99FF;
-  --color-favorite-button-isActive: #B20DBA; 
+  --color-favorite-button: #E5E5E5;
+  --color-favorite-button-isActive: #A928FF; 
 }
