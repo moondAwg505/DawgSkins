@@ -10,14 +10,14 @@
   border: none;
   border-radius: 5px;
   box-sizing: border-box;
-  background-color: var(--color-search-line, #2E1246);
-  color: var(--text-color, #E5E5E5);
+  background-color: var(--color-search-line, #2e1246);
+  color: var(--text-color, #e5e5e5);
 }
 
 .input::placeholder {
   font-family: var(--main-fonts, "Doppio One", sans-serif);
   font-size: var(--font-size-plaseholder-search-line, 1rem);
-  color: var(--color-plaseholder-search-line, #5F4376);
+  color: var(--color-plaseholder-search-line, #5f4376);
 }
 .input:focus {
   outline: none;
@@ -29,7 +29,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 9px; 
+  left: 9px;
   z-index: 2;
-  color: var(--color-icon-input, #5F4376);
+  color: var(--color-icon-input, #5f4376);
 }

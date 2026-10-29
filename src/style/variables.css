@@ -1,8 +1,10 @@
 :root {
+  /* Font */
   --main-fonts: "Doppio One";
 
+  /* Font size elements */
   --font-size-logo: 2rem;
-  --font-size-profile-bbutton: 1.563rem;
+  --font-size-profile-bbutton: 1.125rem;
   --font-size-filter: 1.375rem;
   --font-size-dropDownList: 1.25rem;
   --font-size-name-skins: 0.938rem;
@@ -12,10 +14,13 @@
   --font-size-plaseholder-search-line: 1rem;
   --font-size-text-drop-down-list: 0.938rem;
 
+  /* Main page */
   --color-mainPage-: #120121;
 
+  /* Logo */
   --logo-color-part-one: #E5E5E5;
   --logo-fonts-part-two: #A928FF;
+
 
   --color-button: #471970;
   --color-skin-cards: #2E1246;
@@ -30,25 +35,29 @@
   --color-favorite-buttonOn: #b20dba;
   --color-favorite-buttonOff: #ca99ff;
 
-  --default-color-avatar: #E5E5E5;
-
   --color-search-line: #2E1246;
   --color-plaseholder-search-line: #5F4376;
   --color-icon-input: #5F4376;
   /* --color-focus-input: #855DB1; */
 
+  /* Profile button */
+  --default-color-avatar: #E5E5E5;
   --color-profile-button-text: #E5E5E5;
+  --color-profile-button: #2E1246;
 
+  /* Dropdown icon_currence list */
   --color-drop-down-list: #471970;
   --color-icon_currencies: #0F9E59;
   --color-awrrow-list: #E5E5E5;
 
   --color-text-drop-down-list: #E5E5E5;
 
+  /* Filter section */
   --color-filter-button: #160A20;
   --border-color-filter-button: #835BA5;
   --color-filter-text-button: #8C4FC0;
 
+  /* Skin card */
   --color-skin-card: #2E1246;
   --color-text-skin-card: #E5E5E5;
   --color-text-wear: #8C4FC0;
