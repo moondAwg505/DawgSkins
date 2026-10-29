@@ -9,13 +9,15 @@ import style from "./Header.module.css";
 export const Header = () => {
   return (
     <header className={style.header}>
-      <Logo />
       <div className={style.header_group}>
+        <Logo />
         <SearchInput />
+      </div>
+      <div className={style.header_button_group}>
         <FavoriteButton />
         <ListOfCurrencies />
+        <ProfileButton />
       </div>
-      <ProfileButton />
     </header>
   );
 };
