@@ -1,5 +1,6 @@
 .wrapper_filter {
     display: flex;
-    gap: 430px;
-    margin: auto;
+    justify-content: center;
+    gap: 85px;
+    margin: 30px 35px 20px 35px;
 }

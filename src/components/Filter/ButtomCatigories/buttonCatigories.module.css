@@ -9,15 +9,23 @@
   white-space: nowrap;
   /* TO:DO: Разобраться с отступами */
   /* padding: 3px 20px 3px  20px; */
-  border: none;
+  border: var(--border-color, #835BA5) 2px solid;
   border-radius: 10px;
   text-align: center;
-  font-size: var(--font-size-filter, 1.375rem);
-  background-color: var(--color-filter-button, #471970);
+  font-size: var(--font-size-filter, 1.25rem);
+  background-color: inherit;
   color: var(--color-filter-text-button, #ca99ff);
+  font-family: var(--main-fontsm, "Doppio One", sans-serif);
   cursor: pointer;
+  transition: 0.2s ease, transform 0.2s ease;
+}
+
+.button_catigories:hover {
+  background-color: var(--color-isActive, #8C4FC0);
+  color: var(--text--color-isActive, #160A20)
 }
 
 .active {
-  background-color: #7436a9;
+  background-color: var(--color-isActive, #8C4FC0);
+  color: var(--text--color-isActive, #E5E5E5)
 }

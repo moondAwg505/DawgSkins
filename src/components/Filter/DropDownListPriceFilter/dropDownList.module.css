@@ -10,16 +10,16 @@
   width: 135px;
   height: 30px;
   border: none;
-  border-radius: 10px;
-  background-color: var(--color-filter-button, #471970);
-  color: var(--color-filter-text-button, #ca99ff);
+  border-radius: 5px;
+  background-color: var(--color-drop-down-bg, #2E1246);
+  color: var(--color-filter-text-button, #E5E5E5);
   cursor: pointer;
 }
 
 .filter_text {
-  font-family: var(--main-fonts, "Roboto", sans-serif);
+  font-family: var(--main-fonts, "Doppio One", sans-serif);
   font-size: var(--font-size-dropDownList, 1.25rem);
-  color: var(--color-filter-text-button, #ca99ff);
+  color: var(--color-filter-text-button, #E5E5E5);
 }
 
 .drop_down_list {
@@ -33,7 +33,7 @@
   width: 135px;
   height: 30px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
   background-color: var(--color-filter-button, #471970);
   color: var(--color-filter-text-button, #ca99ff);
