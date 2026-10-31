@@ -5,4 +5,5 @@ export interface ISkinsData {
   wear: string;
   price: number;
   priceChange: number;
+  marketHashName: string;
 }

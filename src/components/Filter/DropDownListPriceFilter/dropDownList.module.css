@@ -11,15 +11,15 @@
   height: 30px;
   border: none;
   border-radius: 5px;
-  background-color: var(--color-drop-down-bg, #2E1246);
-  color: var(--color-filter-text-button, #E5E5E5);
+  background-color: var(--color-drop-down-bg, #2e1246);
+  color: var(--color-filter-text-button, #e5e5e5);
   cursor: pointer;
 }
 
 .filter_text {
   font-family: var(--main-fonts, "Doppio One", sans-serif);
   font-size: var(--font-size-dropDownList, 1.25rem);
-  color: var(--color-filter-text-button, #E5E5E5);
+  color: var(--color-filter-text-button, #e5e5e5);
 }
 
 .drop_down_list {
