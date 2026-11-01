@@ -1,0 +1,13 @@
+.price_up {
+  display: flex;
+  align-items: center;
+  color: var(--price-change-up-color, #3ea126);
+  font-size: var(--font-size-price-change, 0.75rem);
+}
+
+.price_down {
+  display: flex;
+  align-items: center;
+  color: var(--price-change-down-color, #b70f12);
+  font-size: var(--font-size-price-change, 0.688rem);
+}

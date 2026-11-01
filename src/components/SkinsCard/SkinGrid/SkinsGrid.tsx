@@ -8,11 +8,13 @@ interface SkinsGridProps {
 }
 
 export const SkinGrid = ({ skins }: SkinsGridProps) => {
+  return (
   <div className={style.grid}>
     {skins.map((skin) => (
       <SkinCard key={skin.id} SkinData={skin} />
     ))}
-  </div>;
+  </div>
+  )
 };
 
 export default SkinGrid;

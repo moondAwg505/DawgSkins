@@ -4,10 +4,17 @@
   width: 200px;
   height: max-content;
   padding: 10px;
+  margin: 0;
+  border: var(--color-border-skin-card, #835BA5) 1px solid;
   border-radius: 10px;
-  background-color: var(--color-skin-card, #471970);
-  font-family: var(--main-fonts, "Roboto", sans-serif);
+  background-color: inherit;
+  font-family: var(--main-fonts, "Doppio One", sans-serif);
+  cursor: pointer;
 }
+
+/* .wrapper_skins_card:hover {
+box-shadow: ;
+} */
 
 .wrapper_text_skin_card {
   display: flex;
@@ -22,17 +29,17 @@
 }
 
 .name_item {
-  color: var(--color-text-skin-card, #ca99ff);
+  color: var(--color-text-skin-card, #E5E5E5);
   font-size: var(--font-size-name-skins, 0.938rem);
 }
 
 .wear_name_item {
-  color: var(--color-text-wear, #855db1);
+  color: var(--color-text-wear, #8C4FC0);
   font-size: var(--font-size-wear-status-text, 0.75rem);
 }
 
 .price {
-  color: var(--color-text-skin-card, #ca99ff);
+  color: var(--color-text-skin-card, #E5E5E5);
   font-size: var(--font-size-price, 0.875rem);
 }
 

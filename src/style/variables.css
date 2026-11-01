@@ -64,7 +64,8 @@
   --text--color-isActive: #E5E5E5;
 
   /* Skin card */
-  --color-skin-card: #2E1246;
+  --color-skin-card: #160A20; /* not used */
+  --color-border-skin-card: #835BA5;
   --color-text-skin-card: #E5E5E5;
   --color-text-wear: #8C4FC0;
   --price-change-up-color: #3EA126;

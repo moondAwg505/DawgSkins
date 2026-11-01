@@ -1,5 +1,7 @@
 import { Filter } from "../../components/Filter";
 import { Header } from "../../components/Header";
+import { SkinGrid } from "../../components/SkinsCard/SkinGrid";
+import { mockSkins } from "../../mocks/mockSkins";
 import style from "./mainPage.module.css";
 
 export const MainPage = () => {
@@ -7,9 +9,7 @@ export const MainPage = () => {
     <div className={style.wrapper_MainPage}>
       <Header></Header>
       <Filter></Filter>
-      {/* <section className={style.skin_grid_section}>
-                
-            </section> */}
+        <SkinGrid skins={mockSkins}/>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 export interface ISkinsData {
-  id: string;
+  id: number;
   name: string;
   img: string;
   wear: string;

@@ -10,7 +10,7 @@ const prices = pricesJson as PricesResponse;
 
 const priceById = new Map(prices.items.map((p) => [p.item_id, p.lowest_ask / 100]));
 
-export const mockSkin: ISkinsData[] = catalog.items
+export const mockSkins: ISkinsData[] = catalog.items
   .filter((i) => !i.is_stattrak && !i.is_souvenir)
   .flatMap((i) => {
     const price = priceById.get(i.item_id);
