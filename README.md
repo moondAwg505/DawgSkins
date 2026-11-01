@@ -19,4 +19,6 @@ This is a project for tracking price changes of skin CS2. You can add the items 
 * React
 * Lucide-React
 
+<img width="1884" height="1032" alt="image" src="https://github.com/user-attachments/assets/b8e1eaf7-bcd2-4a33-9744-75ac182f8662" />
+
 # As the project develops, Readme will be updated
