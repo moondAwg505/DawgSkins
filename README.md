@@ -5,7 +5,6 @@ This is a project for tracking price changes of skin CS2. You can add the items 
 
 ## Technologies
 * TypeScript
-* React
 * HTML5
 * CSS3
 * Vite
@@ -17,6 +16,7 @@ This is a project for tracking price changes of skin CS2. You can add the items 
 * Storybook
 
 ## Libraries
+* React
 * Lucide-React
 
 # As the project develops, Readme will be updated

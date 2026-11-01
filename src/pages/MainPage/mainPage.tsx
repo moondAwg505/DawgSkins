@@ -9,7 +9,7 @@ export const MainPage = () => {
     <div className={style.wrapper_MainPage}>
       <Header></Header>
       <Filter></Filter>
-        <SkinGrid skins={mockSkins}/>
+      <SkinGrid skins={mockSkins} />
     </div>
   );
 };
