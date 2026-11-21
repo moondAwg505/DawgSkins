@@ -6,12 +6,17 @@ import { SearchInput } from "./SearchInput";
 
 import style from "./Header.module.css";
 
-export const Header = () => {
+interface IHeaderProps {
+  search: string;
+  onSearchChange: (value: string) => void;
+}
+
+export const Header = ({ search, onSearchChange }: IHeaderProps) => {
   return (
     <header className={style.header}>
       <div className={style.header_group}>
         <Logo />
-        <SearchInput />
+        <SearchInput value={search} onChange={onSearchChange} />
       </div>
       <div className={style.header_button_group}>
         <FavoriteButton />

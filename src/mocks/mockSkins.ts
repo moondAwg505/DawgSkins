@@ -1,5 +1,5 @@
 // src/mocks/mockSkins.ts
-import catalogJson from "./items-ak47.json";
+import catalogJson from "./itemsAK47.json";
 import pricesJson from "./prices-steam.json";
 import type { CatalogResponse } from "../type/catalog";
 import type { PricesResponse } from "../type/prices";
